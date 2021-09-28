@@ -19,13 +19,11 @@ package aulas;
 	}
 
 	public void pagamentoDinheiro(){
-		
 		salario = (valorConsulta / 1); 
 		System.out.println("Pagamento do médico em consultas em dinheiro: " + valorDinheiro);
 	}
 	
 	public void pagamentoPlano() {
-	
 		salario = (valorConsulta * 0.70);
 		System.out.println("Pagamento do médico em consultas pelo plano: " + valorPlano);
 	}
