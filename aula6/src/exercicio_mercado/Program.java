@@ -15,16 +15,18 @@ public class Program {
 		System.out.println("Valor total da venda: " + b1.Vender(5));
 		
 		System.out.println(b2.toString());
-		System.out.println("Valor total da venda: " + b2.Vender(3));
+		System.out.println("Valor da venda: " + b2.Vender(3));
 		
 		System.out.println(e1.toString());
-		System.out.println("Valor total da venda: " + e1.Vender(9));
+		System.out.println("Valor da venda: " + e1.Vender(9));
 		
 		System.out.println(e2.toString());
-		System.out.println("Valor total da venda: " + e2.Vender(3));
+		System.out.println("Valor da venda: " + e2.Vender(3));
 		
 		System.out.println(e3.toString());
-		System.out.println("Valor total da venda: " + e3.Vender(1));
+		System.out.println("Valor da venda: " + e3.Vender(1));
+		
+		System.out.println("Valor total da venda: " + (b1.Vender(5) + b2.Vender(3) + e1.Vender(9) + e2.Vender(3) + e3.Vender(1)));
 				
 		
 		/*b1.Vender(5);
