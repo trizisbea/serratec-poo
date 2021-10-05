@@ -20,7 +20,7 @@ public class Program {
 												//poderia ser um método static, não sendo necessário instanciar a main
 		System.out.println("Digite um número inteiro: ");
 		Scanner scanner = new Scanner(System.in); 
-		double numero = scanner.nextDouble(); //armazenamento do número digitado
+		int numero = scanner.nextInt(); //armazenamento do número digitado
 		scanner.close(); //necessário fechar o scanner 
 		return numero; 
 	}
