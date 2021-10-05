@@ -19,8 +19,9 @@ public class BebidaAlcoolica extends Produto {
 
 	@Override
 	public String toString() {
-		return "BebidaAlcoolica [nome= " + getNome() + " valor= " + getValor() + " teorAlcool= " + teorAlcool + "]";
+		return "\nBebidaAlcoolica [teorAlcool=" + teorAlcool + "]";
 	}
-	
+
+
 
 }

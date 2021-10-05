@@ -4,8 +4,8 @@ public abstract class Produto implements Venda {
 	
 	private String nome;
 	private double valor;
-	
-	
+	private int quantidadeItens; 
+		
 	public Produto(String nome, double valor) {
 		super();
 		this.nome = nome;
@@ -27,5 +27,22 @@ public abstract class Produto implements Venda {
 	public double Vender(int quantidadeItens) {
 		return quantidadeItens * valor;
 	}
+	public int getQuantidadeItens() {
+		return quantidadeItens;
+	}
+	public void setQuantidadeItens(int quantidadeItens) {
+		this.quantidadeItens = quantidadeItens;
+	}
+	
+	public double valorTotal() {
+		double valorTotal = (getQuantidadeItens() * getValor());
+		return valorTotal; 
 
+}
+	@Override
+	public String toString() {
+		return "Produto [nome=" + nome + ", valor=" + valor + ", quantidadeItens=" + quantidadeItens + "]";
+	}
+	
+	
 }

@@ -4,8 +4,6 @@ public class Eletrodomestico extends Produto {
 	
 	private int voltagem;
 	
-	
-
 	public Eletrodomestico(String nome, double valor, int voltagem) {
 		super(nome, valor);
 		this.voltagem = voltagem;
@@ -21,8 +19,8 @@ public class Eletrodomestico extends Produto {
 
 	@Override
 	public String toString() {
-		return "Eletrodomestico [nome= " + getNome() + " valor = " + getValor() + " voltagem = " + voltagem + "]";
+		return "\nEletrodomestico [voltagem=" + voltagem + "]";
 	}
-	
 
+	
 }
