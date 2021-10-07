@@ -20,10 +20,12 @@ public class Program {
 		lista.add(a4);
 		
 		try {
-			a1.calcularMedia(); 
-			System.out.println("A média do aluno " + a1.getNome() + " é " + a1.calcularMedia());
+			for (Aluno aluno : lista) {
+			aluno.calcularMedia(); 
+			System.out.println("A média do aluno " + a1.getNome() + " é " + aluno.calcularMedia());
 			
 		}
+			}
 		
 		catch(AlunoException a) {
 			
